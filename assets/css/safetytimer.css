@@ -1,0 +1,65 @@
+/* safetey timer */
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+p {
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+.timer-display {
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+button {
+  background-color: #4f6df5;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.alert-msg {
+  color: #ff4f4f;
+  font-weight: bold;
+}
+
+input[type="time"] {
+  text-align: center;         /* Horizontally center the text */
+  padding: 0.5rem 1rem;       /* Adjust padding for vertical centering */
+  font-size: 2rem;          /* Make the number more visible */             /* Ensure enough height */
+  line-height: 3rem;
+  border-radius: 12px;         /* Optional: rounded corners */
+  border: 2px solid #ccc;               /* Optional: remove border */
+  width: 200px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  margine-bottom: 1.5rem;
+}
+

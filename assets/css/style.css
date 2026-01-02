@@ -1,0 +1,56 @@
+ .alert-button {
+  width: 130px;
+  height: 130px;
+  background-color: #F44336; /* bright red */
+  border-radius: 50%; /* makes it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.alert-button span {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  user-select: none;
+}
+p {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+/* end of alert button styles */
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* allows scrolling */
+  height: 100%;
+  padding-bottom: 80px; /* space for footer */
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+p, h1, h2, h3 {
+  color: #f0f0f0;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+}
+i {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+i:hover {
+  color: #4f6df5;
+}
