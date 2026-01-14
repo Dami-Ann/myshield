@@ -63,3 +63,25 @@ input[type="time"] {
   margine-bottom: 1.5rem;
 }
 
+/* footer */
+.footer i {
+  font-size: 1.5rem;
+}
+
+/* media queries */
+@media (max-width: 600px) {
+  .timer-display {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  input[type="time"] {
+    font-size: 1.5rem;
+    width: 150px;
+  }
+
+  button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}

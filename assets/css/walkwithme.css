@@ -3,7 +3,16 @@ body{
     color: rgb(229, 231, 235); 
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     
+}
+.container {
+  overflow-y: auto;
+  flex: 1;
+  padding-bottom: 40px; /* Height of the footer */
 }
 .walkwithme h2{ 
     text-align: center;
@@ -31,10 +40,11 @@ body{
     border-radius: 16px;
     background-color: rgb(59, 130, 246);
     justify-content: center;
-    display: flex;
+    display: block;
     cursor: pointer;
     margin-right: 20rem;
     margin-left: 30rem;
+    margin: 20px auto ;
     
 }
 .option-action{

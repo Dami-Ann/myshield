@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    padding-bottom: 80px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .card {
+    background: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .card h2 {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+ border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  button {
+    width: 100%;
+    background: #d93025;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #b1271b;
+  }
+  .contact-card {
+    background: #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto 1rem auto;
+
+  }
+  .footer i {
+    font-size: 1.5rem;
+  }
+@media (max-width: 900px) {
+  .card, .contact-card {
+    max-width: 90%;
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+  }
+}
+/* media queries */
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .card h2 {
+    font-size: 1.25rem;
+  }
+  input[type="text"], input[type="tel"] {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+  button {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+  .footer i {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+  }
+  input[type="text"], input[type="tel"] {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+  button {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+  .footer i {
+    font-size: 1rem;
+  }
+}
