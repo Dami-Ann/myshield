@@ -30,12 +30,14 @@ body{
     border: none;
     border-radius: 16px;
     background-color: rgb(59, 130, 246);
+    
+}
+.action-button button{
     justify-content: center;
     display: flex;
+    margin: auto;
     cursor: pointer;
-    margin-right: 20rem;
-    margin-left: 30rem;
-    
+
 }
 .option-action{
     display: flex;
@@ -90,7 +92,6 @@ body{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    margin-bottom: 0px;
 }
 #contact{
     width: 100%;
@@ -100,41 +101,50 @@ body{
     background-color: rgb(31, 41, 51);
     color: white;
     font-size: medium;
-    margin-top: 0px;
+
 }
-.select-contact{
-    display: flex;
-    border: none;
-    flex-direction: column;
-    gap: 12px;
-    margin-top: 0px;
-}
+
+
 .checkbox-one, .checkbox-two{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     max-width: 420px;
-    color: white;
+    color: rgb(156, 163, 175);
     font-size: small;
     align-items: center;
     gap: 8px;
     margin: auto;
 }
-.input-checkbox{
+.checkbox-one input, .checkbox-two input {
+    display: none;
+}
+
+.checkmark {
     width: 16px;
     height: 16px;
-    cursor: pointer;
-    margin-top: 0px;
-    padding-top: 0;
+    border: 1px solid rgb(156, 163, 175);
+    border-radius: 4px;
 }
+
+.checkbox-one input:checked + .checkmark,
+.checkbox-two input:checked + .checkmark {
+    background-color: rgb(59, 130, 246);
+}
+.checkbox-paragraph{
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 0%;
+    row-gap: 5rem;
+}
+
+
 
 .status-section{
     max-width: 420px;
     margin: auto;
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    color: rgb(156, 163, 175);
 }
 
 
